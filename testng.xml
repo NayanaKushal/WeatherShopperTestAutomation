@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+    <classes>
+      <class name="com.weathershopper.TestCases.TestCase001_SelectCategory"/>
+      <class name="com.weathershopper.TestCases.TestCase002_AddItemToCart"/>
+      <class name="com.weathershopper.TestCases.TestCase004_Payment"/>
+      <class name="com.weathershopper.TestCases.TestCase003_CartItems"/>
+      <class name="com.weathershopper.TestCases.TestCase005_OrderConfirmationPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
